@@ -1,0 +1,54 @@
+*{
+	font-family: Helvetica;
+}
+nav{
+	height: 400px;
+	width: 70%;
+	background-color: Snow;
+	text-align: center;
+	float: left;
+}
+aside{
+	height: 400px;
+	width: 70%;
+	background-color: Snow;
+	font-size: 150%;
+	float: left;
+}
+section{
+	height: 150px;
+	width: 30%;
+	background-color: SteelBlue;
+	color: white;
+	text-align: center;
+	float: left;
+}
+main{
+	height: 350px;
+	width: 30%;
+	background-color: SteelBlue;
+	color: white;
+	float: left;
+}
+article{
+	height: 300px;
+	width: 30%;
+	background-color: Snow;
+	text-align: center;
+	float: left;
+}
+footer{
+	background-color: SteelBlue;
+	color: white;
+	clear: both;
+}
+h2{
+	font-size: 250%;
+}
+img{
+	padding: 4px;
+}
+img:hover{
+	padding: 3px;
+	border: 1px solid SteelBlue;
+}

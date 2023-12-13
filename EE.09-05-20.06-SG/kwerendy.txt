@@ -1,0 +1,4 @@
+1. SELECT imie, nazwisko FROM kadra WHERE stanowisko = 'fryzjer';
+2. SELECT COUNT(*) FROM uslugi WHERE rodzaj = 2;
+3. CREATE USER 'fryzjer'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT USAGE ON *.* TO 'fryzjer'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+4. GRANT SELECT, CREATE, ALTER ON `egzamin2`.`kadra` TO 'fryzjer'@'%';
